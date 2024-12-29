@@ -117,6 +117,7 @@ int main(int argc, char *argv[])
 			goto err;
 		}
 		fclose(fp);
+		fp = NULL;
 	}
 
 	uint16_t code_len = (fw[0x02] << 8) | fw[0x03];
