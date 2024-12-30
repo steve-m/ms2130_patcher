@@ -11,3 +11,16 @@ Make sure to backup your firmware:
 and then flash the new firmware with:
 
     ./cli --log-level=7 --no-patch write-file FLASH 0 ms2130_patched_v1.bin
+
+
+## Comparison
+
+Here is a comparison, courtesy of 'Muf' on the Domesday86 Discord:
+
+### Before, with unpatched firmware:
+![unpatched](https://raw.githubusercontent.com/steve-m/ms2130_patcher/refs/heads/master/unpatched.png)
+
+***
+
+### After, with patched firmware:
+![patched](https://raw.githubusercontent.com/steve-m/ms2130_patcher/refs/heads/master/patched.png)
